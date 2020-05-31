@@ -1,0 +1,85 @@
+body{
+    background-color: #f0f2f5;
+}
+
+.navbar{
+    background: #ffff;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 10px 30px 0 rgba(82,63,105,.08);
+    z-index: 9;
+}
+
+.jumbotron {
+    box-shadow: 0 0 30px 0 rgba(82,63,105,.05);
+    border: 0;
+    margin-bottom: 25px;
+    background: #ffffff;
+    border-radius: .42rem;
+}
+
+.jumbotron .container.bg{
+    height: 250px;
+    background-image: url(./cover.jpg);
+    box-shadow: 0 0 30px 0 rgba(82,63,105,.05);
+    border: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #8950fc!important; */
+    margin-bottom: 3%;
+}
+.profile-container{
+    position: relative;
+    top: 79%;
+    transform: translateY(-50%);
+    font-family: arial;
+    font-size: 30px;
+    line-height: 1.8em;
+}
+.profile-container .profile-img{
+    width: 168px;
+    height: 168px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.name-container h4{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .7);
+}
+
+.nav-tabs .nav-link.active{
+    border: none;
+    color: #1876f2;
+    font-size: .9375rem;
+    font-weight: 600;
+    border-bottom: 2px solid;
+}
+.nav-tabs .nav-link{
+    color: #65676b;
+    font-weight: 600;
+}
+.card{
+    box-shadow: 0 0 30px 0 rgba(82,63,105,.05);
+    border: 0;
+    margin-bottom: 25px;
+    background: #ffffff;
+    border-radius: .42rem;
+}
+@media only screen and (min-width: 1200px){
+    .container{
+        max-width: 940px;
+    }
+  }
+
+table tbody tr td:first-child{
+    font-weight: bold;
+}
+
+.card.document .card-body img{
+    width:50%
+}
